@@ -1,0 +1,150 @@
+@import 'main';
+
+/* Start Index.html */
+.introducing {
+ img {
+   max-width: 80%;
+ }
+ .sr-only {
+   float: left;
+ }
+}
+
+.changing-definition {
+ h1 {
+   @include no-margin;
+ }
+}
+
+.touch-type {
+ h1 {
+   padding-top: 15px;
+ }
+ .fillated-keys .img {
+   max-width: 300px;
+   padding: 35px;
+ }
+}
+
+.specs {
+ @include no-padding(bottom);
+ position: relative;
+ float: none;
+ clear: none;
+ .background-image {
+   position: relative;
+   margin-left: 80px;
+   width: 100%;
+ }
+ .inner-block {
+   position: absolute;
+   display: block;
+   max-width: 800px;
+   margin: auto;
+   top: 18%;
+   left: 0;
+   right: 0;
+   z-index: 100;
+   text-align: center;
+ }
+ .row  {
+   padding: 40px;
+   img {
+     padding: 25px;
+     width: 200px;
+   }
+ }
+}
+
+#btn-specs1 {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sailing-c {
+ h1 {
+   padding-top: 15px;
+ }
+}
+
+.learn-play {
+ h1 {
+   padding-top: 25px;
+ }
+ .img-power-rack {
+   max-width: 800px;
+   padding: 60px 0 30px 0;
+ }
+}
+
+.connect {
+  position: relative;
+  float: none;
+  clear: none;
+  .background-image {
+    position: relative;
+    width: 100%;
+ }
+ .icon-image {
+   max-height: 100px;
+   max-width: 100px;
+   margin: 25px auto;
+ }
+ .inner-block {
+   position: absolute;
+   display: block;
+   max-width: 60%;
+   margin: auto;
+   top: 35%;
+   left: 0;
+   right: 0;
+   z-index: 100;
+   text-align: center;
+ }
+}
+
+.software {
+ h1 {
+   padding-top: 35px;
+ }
+}
+
+.accidents-happen {
+ h1 {
+   margin-top: 10px !important;
+ }
+}
+
+.byo-stick {
+ .text-container {
+   padding-top: 35px;
+ }
+}
+
+.mission-not-market {
+ padding-top: 160px;
+ h1 {
+   padding-top: 30px;
+ }
+ center {
+   padding-top: 50px;
+ }
+}
+
+#battery-framed {
+	background-image: url(../img/battery-close-up-framed.jpg);
+}
+#adapter-framed {
+	background-image: url(../img/adapter-framed.jpg);
+}
+#a-mission {
+	background-image: url(../img/mission-not-market.jpg);
+}
+#icon-bar {
+	background-image: url(../img/icon-bar-1000h.jpg);
+}
+#be-happy-parallax {
+	background-image: url(../img/dont-worry-be-happy.jpg);
+}
+/* End Index.html */

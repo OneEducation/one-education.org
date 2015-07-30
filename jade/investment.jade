@@ -1,0 +1,99 @@
+doctype html
+html
+  head
+    include _meta.jade
+    
+    link(rel='stylesheet', href='css/main.css')
+    link(rel='stylesheet', href='css/modular.css')
+    link(rel='stylesheet', href='css/respond.css')
+    link(rel='stylesheet', href='css/bootstrap.css')
+    link(rel='stylesheet', href='css/font-awesome.css')
+    link(rel='stylesheet', href='css/animate.css')
+    
+    script(src='//cdn.optimizely.com/js/3181391036.js')
+    script(src='js/jquery-1.11.3.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/viewportchecker.js')
+    script(src='js/introduction.js')
+    script(src='js/share.js')
+    script(src='js/email.js')
+  body
+    include _navigation.jade
+    include _emailbar.jade
+    include _top-reserve.jade
+    
+    section.introducing
+      img.full-width.visible-xs.visible-sm(src="img/header.jpg")
+      .background-image
+        .container.text-container.overlay-container
+          h1.over-image-pink
+            span(style="position:relative") Introducing the Infinity:
+          br.hidden-xs.hidden-sm
+          br.hidden-xs.hidden-sm
+          h2.over-image-pink
+            span(style="position:relative") a future-ready device, for generations to come.
+    
+    section.investment
+      .container
+        .row
+          .col-md-6
+            img#back-exploded.full-width(src="img/four-colours.jpg")
+          .col-md-6.text-left(style="padding-top: 45px;")
+            h1.pink A Worthwhile Investment
+            p
+              | Invest now, save later. With market prices ranging from $450 for an iPad and $150 for a low spec tablet, the Infinity at $399 is a worthwhile investment. Upgrade individual parts over the life of the device at a fraction of the cost, and only invest in the cost of an entirely new device once. The modularity of the Infinity transforms upgrades from a major expense to an affordable step, allowing you to skip paying for parts that you already have.
+            p
+              | With the ability to replace individual modules with emerging technologies as they develop, your Infinity won't soon become obsolete.  This built in future proofing allows you to easily incorporate the latest components over time.
+    
+    section.modular
+      .container
+        .row
+          .col-md-6.text-left
+            h1.pink Modular
+            p
+              | With four modules forming its core parts, the Infinity is both a tablet and a laptop combined. Detach the screen, and start interacting with the tablet. Unlike other tablets or laptops, the Infinity allows you to replace or upgrade modules individually, diminishing the cost of its maintenance.
+            p
+              | On average, tablets are damaged every two to three years.  With an inability to easily fix or replace individual parts, the need for repair can push the total cost of an iPad or even a low cost tablet to over $2000 within its lifespan. The Infinity's modular design halves the cost, keeping the projected total cost of the Infinity under $900 for the same period.
+          .col-md-6
+            img#back-exploded.full-width(src="img/tablet-back-exploded.jpg", style="margin-top: 15px;")
+    
+    section.universal
+      .container
+        .row
+          .col-md-6
+            img#back-exploded.full-width(style="max-width: 60%;", src="img/tree.png")
+          .col-md-6.text-left(style="padding-top: 60px;")
+            h1.emerald Eco-Friendly
+            p Did you know that your Infinity has a lifespan of up to 10 years, as opposed to 2 for the average tablet? That means less e-waste. Its modular structure allows you to minimize your waste by upgrading your device one module at a time, or by donating what you no longer need.
+            
+    section.modular
+      .container
+        .row
+          .col-md-6.text-left(style="padding-top: 10px;")
+            h1.pink Revolutionary &#38; Universal
+            p The Infinity provides an innovative style of interacting with technology. The Infinity is a system architecture, not a particular device. Its modularity allows the tablet to transform into a laptop. A given Infinity may have different screen, battery, and even core modules installed over its lifetime. You are in control of what gets upgraded, and when.
+            p Much of the world can't afford to upgrade even the cheapest phone every couple of years, but a modular gadget like the Infinity can turn upgrades from a major expense to a minor tweak.
+          .col-md-6
+            img#back-exploded.full-width(src="img/tablet-back-exploded.jpg")
+    
+    include _specs.jade
+    
+    .clearfix.clearfix-100
+    
+    section.our-story
+      img.full-width.visible-xs.visible-sm(src="img/mission-not-market.jpg")
+      .background-image
+        .container.text-container.overlay-container-left
+          .overlay-small-right
+            h1.over-image-pink
+              span Our Story
+            br
+            br
+            p.over-image-pink
+              span A child born today without access to technology in their formative years risks missing out on social and economic opportunities later in life. Over an entire childhood, the cost of adopting technology and keeping it up to date is so high, that it prohibits ubiquitous access to technology, and creates a digital divide.
+            br
+            p.over-image-pink
+              span In our travels we stumbled upon a challenge that was too difficult to ignore, and impossible to resist: creating a computer that helps to eradicate the digital divide.
+                
+    include _bottom-reserve.jade
+    include _footer.jade

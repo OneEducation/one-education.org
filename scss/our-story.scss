@@ -1,0 +1,77 @@
+@import 'main';
+
+/* Start Our Story */
+.stats h2 {
+	margin-top: 35px !important;
+	font-size: 20px !important;
+  span {
+    font-size: 36px;
+  }
+}
+
+.scroll-container {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  opacity: 0;
+}
+
+.scroll-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.challenge .scroll-background {
+  background-image: url(../img/split-circle.png);
+  overflow: hidden;
+}
+
+.mission .scroll-background {
+  background-image: url(../img/whole-circle.png);
+  overflow: hidden;
+}
+
+.story {
+  padding-top: 35px;
+  .globe {
+    max-width: 300px;
+  }
+  .infinity {
+    max-width: 500px;
+  }
+  .img-center {
+    margin: 40px auto;
+  }
+  center {
+    padding-top: 50px;
+  }
+}
+
+.team {
+  .lead {
+    margin-bottom: 35px;
+  }
+  .avatar {
+  	padding: 25px;
+  }
+  .name {
+  	font-size: 23px;
+  }
+  .role {
+  	font-size: 18px;
+  	margin-bottom: 45px !important;
+  }
+}
+
+.contact {
+  h2 {
+    padding-top: 60px;
+  }
+}
+/* End Our Story */

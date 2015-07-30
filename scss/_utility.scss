@@ -1,0 +1,15 @@
+@mixin no-margin($side: all) {
+  @if $side != 'all' {
+    margin-#{$side}: 0 !important;
+  } @else {
+    margin: 0 !important;
+  }
+}
+
+@mixin no-padding($side: all) {
+  @if $side != 'all' {
+    padding-#{$side}: 0 !important;
+  } @else {
+    padding: 0 !important;
+  }
+}

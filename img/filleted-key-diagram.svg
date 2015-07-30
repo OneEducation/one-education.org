@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="542px" height="103px" viewBox="0 0 542 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.3.2 (12041) - http://www.bohemiancoding.com/sketch -->
+    <title>filleted-key-diagram</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="filleted-key-diagram" sketch:type="MSLayerGroup" transform="translate(0.000000, 2.000000)" stroke-width="2.805" stroke-linejoin="round">
+            <path d="M0.795,99.147 L541.922,99.147" id="Stroke-38" stroke="#797C7B" sketch:type="MSShapeGroup"></path>
+            <path d="M87.02,77.177 L122.572,77.177 L122.572,1.567 C122.572,0.797 123.2,0.168 123.974,0.168 L419.603,0.168 C420.378,0.168 421.005,0.797 421.005,1.567 L421.005,77.177 L459.294,77.177" id="Stroke-39" stroke="#84BD42" sketch:type="MSShapeGroup"></path>
+            <path d="M113.709,50.948 L0.795,50.948 M541.413,50.948 L428.499,50.948" id="Stroke-40" stroke="#797C7B" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
