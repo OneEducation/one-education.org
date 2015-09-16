@@ -131,6 +131,10 @@ section {
 .parallax-container img {
 	max-width: 100%;
 }
+
+.btn:focus {
+  outline: none;
+}
 /* End Global */
 
 /* Start Navbar */
@@ -188,7 +192,7 @@ section {
 /* End Navbar */
 
 /* Start Emailbar */
-#emailbar {
+.emailbar {
   display: none;
 	background: $white;
 	border: none;
@@ -217,7 +221,7 @@ section {
 .btn-mail-list {
   margin: 25px;
 }
-#email-form-success {
+.email-form-success {
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
@@ -267,13 +271,13 @@ h4 .share .fa {
 	margin: 0 10px;
 	max-width: 100px !important;
 }
-#cart-form {
+.cart-form {
 	margin: auto;
 }
 .inline {
 	display: inline;
 }
-#cart-form-input {
+.cart-form-input {
 	float: right;
 }
 .quantity-title {

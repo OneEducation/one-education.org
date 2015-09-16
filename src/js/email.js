@@ -3,11 +3,12 @@ $(document).ready( function () {
 	// Show emailbar after scrolling down.
 	$(document).on('scroll', function() {
 		var showSignUp = false;
+		var $emailBar = $('.emailbar');
 		if($(document).scrollTop() >= 100 && !showSignUp) {
-			$('#emailbar').fadeIn('slow');
+			$emailBar.fadeIn('slow');
 			showSignUp = true;
 		} else if ($(document).scrollTop() <= 100) {
-			$('#emailbar').fadeOut('fast');
+			$emailBar.fadeOut('fast');
 			showSignUp = false;
 		}
 	});
@@ -92,18 +93,18 @@ $(document).ready( function () {
 	});
 
 	// Show mailchimp form on mobile devices.
-	$('#emailbar h3').on('click', function() {
+	$('.emailbar h3').on('click', function() {
 		if(window.innerWidth <= 992) {
 			$('#email-modal').modal().toggle();
 			ga('send','event','earlybird','click', 'top-reserve');
 		}
 	});
 
-	$('#btn-reserve1, .btn-reserve2').on('click', function() {
+	$('.btn-reserve1, .btn-reserve2').on('click', function() {
 		$('.reserve-modal').modal().toggle();
 	});
 
-	$('#btn-specs1').on('click', function() {
+	$('.btn-specs1').on('click', function() {
 		$('html, body').animate({
         scrollTop: $("#specs").offset().top - 100
     }, 2000);
@@ -130,7 +131,7 @@ $(document).ready( function () {
 	resizeForm();
 
 	// Track clicks
-	$('#btn-reserve1').on('click', function () {
+	$('.btn-reserve1').on('click', function () {
 		ga('send','event','earlybird','click', 'top-reserve');
 	});
 

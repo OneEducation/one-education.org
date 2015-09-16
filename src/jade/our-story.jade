@@ -4,10 +4,7 @@ html
     include _meta.jade
     
     link(rel='stylesheet', href='css/index.css')
-    script(src='js/introduction.js')
-    script(src='js/stats.js')
-    script(src='js/team.js')
-    script(src='js/email.js')
+    link(rel='stylesheet', href='css/our-story.css')
   body
     include _navigation.jade
     include _emailbar.jade
@@ -45,7 +42,7 @@ html
       img.full-width(src='img/millions-of-people.png')
     section.challenge
       .scroll-background
-        img.invisible.full-width(src='img/split-circle.png')
+        img.full-width(src='img/split-circle.png')
       .container.text-container
         h1 The Challenge
         p A child born today without access to technology in their formative years risks missing out on social and economic opportunities later in life. Over an entire childhood, the cost of adopting technology and keeping it up to date is too prohibitive to become ubiquitous - making the digital divide an inevitability.
@@ -233,3 +230,9 @@ html
 
     
     include _footer.jade
+    
+    script(src='js/viewportchecker.js')
+    script(src='js/animation.js')
+    script(src='js/share.js')
+    script(src='js/stats.js')
+    script(src='js/team.js')

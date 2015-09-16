@@ -32,7 +32,7 @@ gulp.task('sass', function() {
 });
 
 // Minify all js files.
-gulp.task('minify', function() {
+gulp.task('minify', ['lint'], function() {
   return gulp.src('src/js/[^_]*.js')
     .pipe(uglify())
     .pipe(gulp.dest('app/js'));
@@ -52,9 +52,9 @@ gulp.task('browser-sync', function() {
     }
   });
   gulp.watch("src/js/*.js", ['js-watch']);
-  gulp.watch("src/scss/*.scss", ['sass']);
   gulp.watch("src/jade/*.jade", ['jade-watch']);
+  gulp.watch("src/scss/*.scss", ['sass']);
 });
 
 // Default task.
-gulp.task('default', ['lint', 'jade', 'sass', 'minify', 'browser-sync']);
+gulp.task('default', ['lint', 'sass', 'browser-sync', 'js-watch', 'jade-watch']);
