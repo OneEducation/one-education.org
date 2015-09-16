@@ -83,7 +83,7 @@
           top: (event.originalEvent.layerY || event.offsetY) - $toolTip.height() - 40
         });
       });*/
-    }
+    };
   };
 
 }(window, document, Chartist));
