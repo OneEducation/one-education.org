@@ -1,0 +1,232 @@
+/* Adjustments for smaller screens */
+@media (max-width: 992px) {
+	#emailbar button {
+		display: none !important;
+	}
+	.connect .background-image {
+		display: none;
+	}
+	.specs .inner-block {
+		position: relative;
+
+	}
+	.specs .inner-block img {
+		margin: 0 !important;
+	}
+	.specs .inner-block h2 {
+		font-size: 36px !important;
+	}
+	.specs .background-image {
+		display: none;
+	}
+	#emailbar h3 {
+		text-align: center;
+		color: #fff !important;
+		background: #429DD0;
+		padding: 10px;
+		border-radius: 5px;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+	.btn-mail-list {
+		margin: 0;
+	}
+	.connect .inner-block {
+		top: 0;
+		position: relative;
+		background: transparent;
+		box-shadow: none !important;
+	}
+	.stats .col-sm-6 {
+		padding: 25px 25px 65px 25px;
+	}
+	section {
+		padding-bottom: 65px;
+		text-align: center;
+	}
+	.text-container h1 {
+		margin-top: 25px !important;
+	}
+	.scroll-background {
+		max-height: 1000px;
+	}
+	#front-exploded, #back-exploded {
+		margin: 0 !important;
+	}
+	.touch-type {
+		padding: 65px 0;
+	}
+
+	#cart-form-input * {
+		display: inline;
+	}
+	#cart-form-input .quantity-title {
+		margin-top: 20px;
+	}
+	#cart-form-input .shopify-quantity {
+		margin-top: 10px;
+	}
+	#cart-form-input span {
+		margin-top: 8px !important;
+		padding: 8px;
+	}
+	.reserve-title {
+	  margin: 10px auto 0 auto;
+	  float: none;
+	}
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 992px) {
+	.specs .col-md-6 {
+		text-align: left;
+	}
+	.specs .row img {
+		padding: 0 25px !important;
+	}
+	#email-form .form-control {
+		max-width: 460px;
+	}
+	#email-form input {
+		margin-top: 15px;
+	}
+	.btn-mail-list {
+		float: right;
+	}
+	.introducing h1 {
+		margin-top: 110px !important;
+	}
+	.sailing-c,
+	.accidents-happen {
+		padding-bottom: 200px;
+	}
+	.dont-waste {
+		padding-bottom: 160px;
+	}
+	.scroll-background {
+		max-height: 800px;
+	}
+	.stats-content {
+		margin-bottom: 65px;
+	}
+	.fillated-keys {
+		padding-top: 50px;
+	}
+	.changing-definition {
+		padding-top: 60px;
+	}
+	#front-exploded {
+		margin-top: 80px;
+	}
+	#back-exploded {
+		margin-bottom: 80px;
+	}
+	#email-modal-content-success {
+		margin-top: 50%;
+	}
+ }
+
+/* Adjust size specs to fit beside the device */
+@media (max-width: 1560px) {
+	.specs .inner-block img {
+		max-width: 150px;
+		margin-left: 130px;
+	}
+	.specs .inner-block h2 {
+		font-size: 20px !important;
+	}
+	.specs .inner-block .row {
+		padding: 40px;
+	}
+	.parallax-container {
+		max-height: 600px;
+	}
+}
+@media (max-width: 1360px) {
+	.specs .inner-block .row {
+		padding: 30px;
+	}
+}
+@media (max-width: 1160px) {
+	.specs .inner-block .row {
+		padding: 20px;
+	}
+}
+
+/* Adjust connectivity section to fit inside devices when possible */
+@media (max-width: 1540px) {
+	.connect .inner-block {
+		top: 35%;
+		background: rgba(255, 255, 255, .5);
+		box-shadow: 0 0 5px #ccc;
+	}
+}
+@media (max-width: 1240px) {
+	.connect .inner-block {
+		top: 22%;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 1550px) {
+	.social-nav {
+		text-align: right;
+		padding: 142px 20px;
+	}
+	.social-nav li {
+		padding: 40px !important;
+	}
+	.footer-nav {
+		margin-top: 145px !important;
+	}
+	.footer-nav li {
+		display: inline;
+		padding: 20px;
+	}
+}
+
+/* Adjust email list form for tablets */
+@media (max-width: 1205px) and (min-width: 992px) {
+	#email-form .form-control {
+		max-width: 375px;
+	}
+	.email-title {
+		max-width: 400px;
+	}
+}
+
+/* Stack footer on smaller screen width */
+@media (max-width: 1550px) {
+	.social-nav {
+		width: 100% !important;
+		text-align: center;
+		padding: 20px 0 !important;
+	}
+	.footer-nav li {
+		display: inline;
+		padding: 15px;
+	}
+	.footer-nav {
+		width: 100% !important;
+		text-align: center;
+		margin-bottom: 45px;
+	}
+	.footer-logo {
+		float: none !important;
+	}
+
+}
+
+/* Smaller fonts on mobile */
+@media (max-width: 492px) {
+	p, .lead {
+		font-size: 20px !important;
+	}
+	h1 {
+		font-size: 32px !important;
+	}
+	.contact .btn {
+		width: 100%;
+		font-size: 12px !important;
+	}
+}

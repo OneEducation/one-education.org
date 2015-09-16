@@ -1,0 +1,73 @@
+doctype html
+html
+  head
+    include _meta.jade
+    
+    link(rel='stylesheet', href='css/modular.css')
+    script(src='js/introduction.js')
+    script(src='js/email.js')
+  body
+    include _navigation.jade
+    include _emailbar.jade
+    include _reserve-top.jade
+    
+    section.introducing
+      img.full-width.visible-xs.visible-sm(src="img/header.jpg")
+      .background-image
+        .container.text-container.overlay-container
+          h1.over-image-pink
+            span Introducing the Infinity:
+          br.hidden-xs.hidden-sm
+          br.hidden-xs.hidden-sm
+          h2.over-image-pink
+            span Bridging the digital divide, one tablet at a time.
+
+    section.modular
+      .container
+        .row
+          .col-md-6
+            img#back-exploded.full-width(src="img/tablet-back-exploded.jpg")
+          .col-md-6.text-left(style="padding-top: 75px;")
+            h1.pink Modular
+            p With five modules forming its core parts, the Infinity is obsolete-proof. you can replace or upgrade modules individually at the fraction of the cost of the entire device. The Infinity is a one time investment that makes technology affordable for everybody.
+
+    section.universal
+      .container
+        .row
+          .col-md-6.text-left(style="padding-top: 60px;")
+            h1.emerald Eco-Friendly
+            p Did you know that your Infinity has a lifespan of up to 10 years, as opposed to 2 for the average tablet? That means less e-waste. Its modular structure allows you to minimize your waste by upgrading your device one module at a time, or by donating what you no longer need.
+          .col-md-6
+            img#back-exploded.full-width(style="max-width: 60%;", src="img/tree.png")
+
+    section.modular
+      .container
+        .row
+          .col-md-6
+            img#back-exploded.full-width(src="img/tablet-back-exploded.jpg")
+          .col-md-6.text-left(style="padding-top: 10px;")
+            h1.pink Revolutionary &#38; Universal
+            p The Infinity provides an innovative style of interacting with technology. The Infinity is a system architecture, not a particular device. Its modularity allows the tablet to transform into a laptop. A given Infinity may have different screen, battery, and even core modules installed over its lifetime. You are in control of what gets upgraded, and when.
+            p Much of the world can't afford to upgrade even the cheapest phone every couple of years, but a modular gadget like the Infinity can turn upgrades from a major expense to a minor tweak.
+              
+    include _specs.jade
+                  
+    .clearfix.clearfix-100
+    
+    section.our-story
+      img.full-width.visible-xs.visible-sm(src="img/mission-not-market.jpg")
+      .background-image
+        .container.text-container.overlay-container-left
+          .overlay-small-right
+            h1.over-image-pink
+              span Our Story
+            br
+            br
+            p.over-image-pink
+              span A child born today without access to technology in their formative years risks missing out on social and economic opportunities later in life. Over an entire childhood, the cost of adopting technology and keeping it up to date is so high, that it prohibits ubiquitous access to technology, and creates a digital divide.
+            br
+            p.over-image-pink
+              span In our travels we stumbled upon a challenge that was too difficult to ignore, and impossible to resist: creating a computer that helps to eradicate the digital divide.
+
+    include _reserve-bottom.jade
+    include _footer.jade

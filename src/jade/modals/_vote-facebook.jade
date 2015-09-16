@@ -1,0 +1,16 @@
+.vote-facebook-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='twitter-modal')
+  .modal-dialog.modal-md(role='document')
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×  
+        p.reserve-confirmation.invisible 
+        p.visible How to vote on Facebook
+        img.facebook-comment(src="img/facebook-comment.png")
+      .modal-body
+        p.visible #[strong 1.] Copy the voting text below and visit our entry post for #[strong #UpgradeYourWorldAU].
+        textarea.form-control(onclick="this.select();") I ‪#‎vote‬ for One Education to win ‪#‎UpgradeYourWorldAU‬
+        p.visible #[strong 2.] Click comment and paste in or type the text above then press enter! 
+        a.btn.btn-vote-facebook.visible(href="https://www.facebook.com/one.edu.org/posts/10153125940937544", target="_blank")
+          #[i.fa.fa-facebook] Vote on Post
+      .modal-footer

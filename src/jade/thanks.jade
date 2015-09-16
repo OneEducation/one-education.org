@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    include _meta.jade
+    
+    link(rel='stylesheet', href='css/main.css')
+    script(src='js/introduction.js')  
+    script(src='js/email.js')
+  body
+    include _navigation.jade
+    
+    section.thanks
+      img.img-infinity(src='img/infinity.png')
+      h1.text-blue
+        | Thank You
+        br
+        small for signing up
+      p Share the Infinity with friends
+      .share
+        a.btn(href='https://www.facebook.com/sharer/sharer.php?u=https://one-education.org/infinity')
+          i.fa.fa-facebook
+        a.btn(href='https://twitter.com/intent/tweet?url=https://one-education.org/infinity&text=Check%20out%20the%20awesome%20%40One_Education%20Infinity%20-%20a%20modular%20computer%20for%20kids!&hashtags=modular,kids')
+          i.fa.fa-twitter
+        a.btn(href='https://plus.google.com/share?url=https://one-education.org/infinity')
+          i.fa.fa-google-plus
+          
+    
+    include _footer.jade

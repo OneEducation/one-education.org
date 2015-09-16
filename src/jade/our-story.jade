@@ -1,0 +1,235 @@
+doctype html
+html
+  head
+    include _meta.jade
+    
+    link(rel='stylesheet', href='css/index.css')
+    script(src='js/introduction.js')
+    script(src='js/stats.js')
+    script(src='js/team.js')
+    script(src='js/email.js')
+  body
+    include _navigation.jade
+    include _emailbar.jade
+    
+    section.stats.container
+      h1 We've Reached
+      .container-fluid.stats-content
+        .row
+          .col-md-3.col-sm-6.col-xs-6
+            img.full-width(src='img/bell.png')
+            h2.blue
+              span#schools 0
+              br
+              | Schools
+          .col-md-3.col-sm-6.col-xs-6
+            img.full-width(src='img/wheel.png')
+            h2.cerise-red
+              span#shipped 0
+              br
+              | Shipped
+          .col-md-3.col-sm-6.col-xs-6
+            img.full-width(src='img/cursor.png')
+            h2.emerald
+              span#online 0
+              br
+              | Online
+          .col-md-3.col-sm-6.col-xs-6
+            img.full-width(src='img/stopwatch.png')
+            h2.yellow
+              span#hours 0
+              br
+              | Hours Used
+      img.full-width(src='img/millions-of-people.png')
+      h1 With your help we will reach millions
+      img.full-width(src='img/millions-of-people.png')
+    section.challenge
+      .scroll-background
+        img.invisible.full-width(src='img/split-circle.png')
+      .container.text-container
+        h1 The Challenge
+        p A child born today without access to technology in their formative years risks missing out on social and economic opportunities later in life. Over an entire childhood, the cost of adopting technology and keeping it up to date is too prohibitive to become ubiquitous - making the digital divide an inevitability.
+    section.mission
+      .scroll-background
+        img.full-width(src='img/whole-circle.png')
+      .container.text-container
+        h1 Our Mission
+        p Our mission is to prevent the digital divide by empowering parents and schools to adopt socially responsible technology, and ensure that technology reaches those who could not otherwise afford it - creating a fair start for all.
+    section.story
+      .container.text-container
+        img.img-center(src='img/tree.png')
+        h1 Our Story
+        p Grown from the seed of One Laptop per Child, matured in Australian soil. One Education has been nurtured by Rangan and a collective of talented and passionate professionals who believe in the power of bringing technology to those most in need.
+        img.img-center.globe(src='img/globe.png')
+        p In eight years the organisation has transformed from a volunteer outfit to a full-time team that has delivered more than 50,000 XOs to children in Australia, New Zealand, Fiji, and the Philippines.
+        img.img-center.infinity(src='img/infinity.png')
+        p Now One Education strives to eliminate the digital divide and halve the long term cost of technology adoption by creating the Infinity - a modular computer for any child.
+        center
+          a.btn.btn-lg.btn-danger(href='/index.html', type='button') Learn More
+    section.team
+      .container.text-container
+        h1 Our Team
+        p.lead One Education - headquartered in sunny Sydney - is comprised of a team of smart, multiskilled individuals from around the world who work together to create opportunities for all children, from all walks of life.
+        .container-fluid
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/rangan-srikhanta.png')
+              p.name Rangan Srikhanta
+              p.role CEO & Founder
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/sony-bonang.png')
+              p.name Sony Bonang
+              p.role Financial Accountant
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/steven-burgess.png')
+              p.name Steven Burgess
+              p.role Industrial Designer
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/alfred-ching.png')
+              p.name Alfred Ching
+              p.role Industrial Designer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/matthew-ciao.png')
+              p.name Matthew Ciao
+              p.role Operating Systems Manager
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/paul-cotton.png')
+              p.name Paul Cotton
+              p.role Apps & Online Manager
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/alex-cowell.png')
+              p.name Alex Cowell
+              p.role Financial Controller
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/alwin-george.png')
+              p.name Alwin George
+              p.role Hardware Engineer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/dan-marshall.png')
+              p.name Dan Marshall
+              p.role Graphics Designer
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/jay-mcmullen.png')
+              p.name Jay McMullen
+              p.role Software Engineer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/niraj-nakrani.png')
+              p.name Niraj Nakrani
+              p.role Quality Assurance Engineer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/annie-nguyen.png')
+              p.name Annie Nguyen
+              p.role Operations Manager
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/dongseok-paeng.png')
+              p.name Dongseok Paeng
+              p.role Software Engineer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/chezhyan-pannerselvam.png')
+              p.name Chezhyan Pannerselvam
+              p.role Project Manager
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/kirsty-peters.png')
+              p.name Kirsty Peters
+              p.role Human Resources
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/safeer-sarfudeen.png')
+              p.name Safeer Sarfudeen
+              p.role Hardware Engineer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/andrew-simpson.png')
+              p.name Andrew Simpson
+              p.role Lead Industrial Designer
+            .person.quit.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/lewissa-stewart.png')
+              p.name Lewissa Stewart
+              p.role School Partnerships
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/charles-thattil.png')
+              p.name Charles Thattil
+              p.role Hardware Engineer
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/john-vergara.png')
+              p.name John Vergara
+              p.role School Partnerships
+        h1 Our Board
+        p.lead The One Education board is a group of high minded and passionate people who generously volunteer their time bring a world to life where all children receive a fair start.
+        .container-fluid
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/philip-argy.png')
+              p.name Phillip Argy
+              p.role Chairman
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/charles-kane.png')
+              p.name Charles Kane
+              p.role Director
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/chris-kirby.png')
+              p.name Chris Kirby
+              p.role Director
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/natalie-see.png')
+              p.name Natalie See
+              p.role Director
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/leanne-smith.png')
+              p.name Leanne Smith
+              p.role Board Secretary
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/rangan-srikhanta.png')
+              p.name Rangan Srikhanta
+              p.role CEO & Founder
+          .row
+            .person.col-md-4.col-sm-4
+              img.full-width.avatar(src='img/avatars/barry-vercoe.png')
+              p.name Barry Vercoe
+              p.role Director
+    section.supported
+      .container.text-container
+        h1 We are supported by
+        .row
+          .col-md-4.col-sm-4.col-xs-6
+            img.full-width.avatar(src='img/supported-by/bohemian-coding-sketch.jpg')
+          .col-md-4.col-sm-4.col-xs-6
+            img.full-width.avatar(src='img/supported-by/framerjs.jpg')
+          .col-md-4.col-sm-4.col-xs-6
+            img.full-width.avatar(src='img/supported-by/freshdesk.jpg')
+          .col-md-4.col-sm-4.col-xs-6
+            img.full-width.avatar(src='img/supported-by/keyshot.jpg')
+          .col-md-4.col-sm-4.col-xs-6
+            img.full-width.avatar(src='img/supported-by/salesforce.jpg')
+          .col-md-4.col-sm-4.col-xs-6
+            img.full-width.avatar(src='img/supported-by/slack.jpg')
+    section#contact.contact
+      .container.text-container
+        h1 Got Questions?
+        .container-fluid
+          .row
+            .col-md-4.col-sm-4.col-xs-4
+              a(target='_blank', href='https://www.google.com.au/maps/place/One+Education/@-33.876259,151.204212,15z/data=!4m2!3m1!1s0x0:0x197a74ee3d93b8f5')
+                img.full-width(src='img/find-us.png')
+                h3.btn.btn-primary Find Us
+            .col-md-4.col-sm-4.col-xs-4
+              a(target='_blank', href='mailto:info@one-education.org')
+                img.full-width(src='img/email-us.png')
+                h3.btn.btn-primary Email Us
+            .col-md-4.col-sm-4.col-xs-4
+              a(target='_blank', href='tel:1800663338')
+                img.full-width(src='img/call-us.png')
+                h3.btn.btn-primary Call Us
+        h2
+          small
+            | Phone
+            br
+          | 1800 663 338
+
+    
+    include _footer.jade

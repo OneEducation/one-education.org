@@ -1,0 +1,19 @@
+.vote-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='twitter-modal')
+  .modal-dialog.modal-md(role='document')
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×  
+        p.reserve-confirmation.invisible Nice one! A confirmation email is on the way! 
+        p Vote for @One_Education
+        img.fb-twitter(src="img/fb-twitter.png")
+      .modal-body
+        p With just one vote, you can help us secure a $50,000 donation to produce the first prototypes of the Infinity and help children all around the world. You can vote once per day, so feel free to come back and vote again
+        .row
+          .col-md-6
+            a.btn.btn-vote-twitter.visible.share(href='https://twitter.com/intent/tweet?&text=Retweet%20and%20%23vote%20with%20me%20for%20%40One_Education%20to%20win%20%2450k%20from%20%23UpgradeYourWorldAU%20so%20they%20can%20keep%20upgrading%20kid%27s%20lives%20around%20the%20world.')
+              #[i.fa.fa-twitter] Vote on Twitter
+          .col-md-6
+            a.btn.btn-vote-facebook.visible
+              #[i.fa.fa-facebook] Vote on Facebook
+      .modal-footer

@@ -1,0 +1,1 @@
+$(document).ready(function(){$("a.share").on("click",function(t){var a=$(this).attr("href"),e=Math.floor(((screen.availWidth||1024)-500)/2),o=Math.floor(((screen.availHeight||700)-500)/2),r=window.open(a,"social","width=500,height=500,left="+e+"top="+o+",location=0, menubar=0,toolbar=0,status=0,scrollbars=1,resizable=1");r&&(r.focus(),t.preventDefault())})});

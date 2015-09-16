@@ -1,0 +1,25 @@
+.newsletter-modal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='newsletter-modal')
+  .modal-dialog.modal-sm(role='document')
+    .modal-content
+      .modal-header
+        button.close(type='button', data-dismiss='modal', aria-label='Close')
+          span(aria-hidden='true') ×
+        p Join our Infinity mailing list
+      form
+        .modal-body
+          .alert.alert-danger(style='display: none;')
+          label First Name
+          input.val-firstname.form-control(name='FNAME', type='text')
+          label Last Name
+          input.val-lastname.form-control(name='LNAME', type='text')
+          label Email Address
+          input.val-email.form-control(name='EMAIL', type='text')
+          label(style='padding-top:10px;')
+          // Mailchimp required fields & subscription options.
+          input.invisible(type="text", value="-1", name="MMERGE3", style="display:none;")
+          input.invisible(type="text", value="-1", name="MMERGE4", style="display:none;")
+          input.invisible(type="checkbox", value="4", name="group[20373][4]", style="display:none;")
+          input.invisible(type="checkbox", value="8", name="group[20373][8]", checked, style="display:none;")
+          br
+          input#email-modal-submit.btn.btn-primary.pull-right(type='submit', value='Stay up to date')
+        .modal-footer  

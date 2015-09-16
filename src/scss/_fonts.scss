@@ -1,0 +1,25 @@
+@font-face{
+  font-family:"MuseoSansW01-Rounded100_942388";
+  src:url("../fonts/dea56274-05bd-45fa-bfb4-87d82af24dd5.eot?#iefix");
+  src:url("../fonts/dea56274-05bd-45fa-bfb4-87d82af24dd5.eot?#iefix") format("eot"),url("../fonts/a83c04f0-6bdc-42cd-b8b6-14605c7c72d0.woff2") format("woff2"),url("../fonts/2c672e2c-eaf8-403b-9c7e-26043e6b3dff.woff") format("woff"),url("../fonts/4601af7e-e576-423a-b4a8-0c8f39017222.ttf") format("truetype"),url("../fonts/10e06c49-3717-4ee8-b923-904b894eb999.svg#10e06c49-3717-4ee8-b923-904b894eb999") format("svg");
+}
+
+@font-face{
+  font-family:"MuseoSansW01-Rounded300";
+  src:url("../fonts/b306383f-db79-42c0-92db-e0759aff6588.eot?#iefix");
+  src:url("../fonts/b306383f-db79-42c0-92db-e0759aff6588.eot?#iefix") format("eot"),url("../fonts/66c80723-12ac-4a96-8303-d0eee61c32b1.woff2") format("woff2"),url("../fonts/36d5ed39-d8cd-4558-a597-0f47565cdd0e.woff") format("woff"),url("../fonts/5b6ee6f2-5a3c-4f51-a192-9d34b20b76d7.ttf") format("truetype"),url("../fonts/b2dea16e-a12b-40b2-ba49-d6f96411788b.svg#b2dea16e-a12b-40b2-ba49-d6f96411788b") format("svg");
+}
+
+@font-face{
+  font-family:"MuseoSansW01-Rounded500";
+  src:url("../fonts/bce92934-3424-455e-a932-b365b0acb769.eot?#iefix");
+  src:url("../fonts/bce92934-3424-455e-a932-b365b0acb769.eot?#iefix") format("eot"),url("../fonts/724577a4-2ce2-4c97-94cb-9a622b9ab1c3.woff2") format("woff2"),url("../fonts/231821bd-27ad-42c9-9c65-a4d8465cef7a.woff") format("woff"),url("../fonts/f95819e8-3fc1-420e-af97-c57b8f3b41fa.ttf") format("truetype"),url("../fonts/1705375f-d9b2-47de-859d-f9267a536656.svg#1705375f-d9b2-47de-859d-f9267a536656") format("svg");
+}
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=9e8cef5c-8170-4604-af95-86e7abfcd523");
+
+@mixin fontfamily {
+ 	font-family:'MuseoSansW01-Rounded100_942388';
+ 	text-rendering: optimizeLegibility;
+ 	font-weight: 300;
+}
