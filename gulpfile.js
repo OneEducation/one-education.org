@@ -45,7 +45,7 @@ gulp.task('js-watch', ['minify'], browserSync.reload);
 gulp.task('jade-watch', ['jade'], browserSync.reload);
 
 // Sync changes with local server.
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', ['sass', 'jade', 'minify'], function() {
   browserSync.init({
     server: {
       baseDir: "app"
@@ -57,4 +57,4 @@ gulp.task('browser-sync', function() {
 });
 
 // Default task.
-gulp.task('default', ['lint', 'sass', 'browser-sync', 'js-watch', 'jade-watch']);
+gulp.task('default', ['browser-sync']);
